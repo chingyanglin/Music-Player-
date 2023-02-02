@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+h1,h2,h3 {
+    color: rgba($color: #4a4a4a, $alpha: 1.0)
+}
+@import "./player";
+@import "./song.scss";
+@import "./library";
+@import "./nav"
